@@ -164,7 +164,36 @@ body{
     height: 30px;
     color: #fff;
     font-weight: 700;
+
 }
+
+
+
+.container-evento-uno{
+
+display: flex;   
+
+}
+
+.container-img-evento-peli{
+    display: flex;
+    background-image: linear-gradient(to top, #7741f5 0%, #514669 100%);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
 
 .gallery{
     background: #f2f2f2;

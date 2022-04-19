@@ -1,32 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Freebie: 4 Bootstrap Gallery Templates</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
+
+
 </head>
-
-<header>
-    <menu>
-        <ul>
-            <h4>inicio</h4>
-        </ul>
-    </menu>
-</header>
 <body>
-    <main>
-        <div>
 
-            <h1>titulo chido</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, aliquam nisi. Iure dolorem sequi consectetur doloribus incidunt nisi labore vitae natus eius hic! Animi quam laboriosam sequi provident officiis tenetur?</p>
-        </div>
-        
-    </main>
+<div class="container gallery-container">
 
-    <footer>
-        num  face inst twet etc
-    </footer>
+    <h1>Galeria</h1>
+
+    <p class="page-description text-center">Grid Layout With Zoom Effect</p>
     
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href= https://i.pinimg.com/564x/82/0c/dc/820cdce0dd69976a70cf0db415a7da12.jpg>
+                    <img src= https://i.pinimg.com/564x/82/0c/dc/820cdce0dd69976a70cf0db415a7da12.jpg alt="Park">
+                </a>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Bridge">
+                    <a class="lightbox" href="minions">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Bridge">
+                </a>
+            </div>
+            <!-- <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Tunnel">
+                </a>
+            </div> -->
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg">
+                    <img src="https://i.pinimg.com/originals/e5/b2/52/e5b252e1ff0ccaa5c6a059fe0b7dd9a2.jpg" alt="Sky">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 </body>
 </html>

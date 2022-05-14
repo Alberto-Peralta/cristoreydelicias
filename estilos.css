@@ -241,6 +241,33 @@ body{
     font-weight: 400;
 }
 
+
+.mapa{
+
+    overflow:hidden;
+
+    padding-bottom:25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.mapa iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
 footer{
     /* background: #9f8ad0; */
     background-image: linear-gradient(to top, rgb(48, 207, 208, 0.45) 0%, hsl(267, 86%, 22%, 0.45) 100%);

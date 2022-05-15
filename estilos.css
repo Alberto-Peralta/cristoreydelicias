@@ -25,7 +25,9 @@ body{
     /* 02 */
 
     background-image: linear-gradient(to top, rgb(48, 207, 208, 0.45) 0%, hsl(267, 86%, 22%, 0.45) 100%), url(https://scontent.fcjs1-2.fna.fbcdn.net/v/t1.6435-9/127081378_4979125598779192_8066980549296059154_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=09cbfe&_nc_eui2=AeFQ41ng9rzXF6is0Q9q9EQWVsZ5XmSIvPNWxnleZIi882o4L_NULLgTxtyMgrAf1c229pea5X1e67vT8c-FRFVy&_nc_ohc=XMBgAZE0gHYAX8XKE4y&_nc_ht=scontent.fcjs1-2.fna&oh=00_AT8HQ90Tc4_xzyqUjzZee8I5vQVmD8mLABr544imA1bYiw&oe=62A64075); 
-    ;
+    
+
+    
     /* background-image: linear-gradient(to right, rgb(79, 172, 254, 0.5) 0%, hsla(183, 100%, 50%, 0.5) 100%), url(https://scontent.fcjs1-2.fna.fbcdn.net/v/t1.6435-9/127081378_4979125598779192_8066980549296059154_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=09cbfe&_nc_eui2=AeFQ41ng9rzXF6is0Q9q9EQWVsZ5XmSIvPNWxnleZIi882o4L_NULLgTxtyMgrAf1c229pea5X1e67vT8c-FRFVy&_nc_ohc=XMBgAZE0gHYAX8XKE4y&_nc_ht=scontent.fcjs1-2.fna&oh=00_AT8HQ90Tc4_xzyqUjzZee8I5vQVmD8mLABr544imA1bYiw&oe=62A64075); 
     
     
@@ -74,6 +76,8 @@ body{
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     /* 028 */
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(to top, rgb(48, 207, 208, 10) 0%, #330867 100%);
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -108,7 +112,7 @@ body{
 /* Aquí encontrarás */
 
 .subtitulo{
-    color: #7341e7;
+    color: #7c68ec;
     font-size: 40px;
     text-align: center;
     font-weight: 300;

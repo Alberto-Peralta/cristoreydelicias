@@ -112,12 +112,13 @@ body{
 
    /* Start: Video Responsive */
 
-   title-mp p{
+   .title-m{
        display: flex;
        justify-content: center;
+       color: #330867
    }
 
-   .mensaje-p {
+   .mensaje-p{
     overflow:hidden;
     border: 100px;
     padding-bottom:600px; /* Adecua este valor para controlar la altura del video */
